@@ -30,7 +30,7 @@ There are four levels of security policy development:
 4. **Level 4**: Security Procedures
    The step-by-step instructions for implement a solution for protection our data or infrastructure.
 
-> Tip: When you are developing a new safe guard, that means that you establishing a new security baseline, which means maintaining compliance with the existing baseline is not a valid consideration.
+> When you are developing a new safe guard, that means that you establishing a new security baseline, which means maintaining compliance with the existing baseline is not a valid consideration.
 
 ### Domain 1: Risk Management & Risk Analysis
 
@@ -49,3 +49,24 @@ There are four levels of security policy development:
 - **Application Error**: Failure of the application, including the operating system.
 
 #### Security Planning
+
+Must include 3 types of the plans:
+
+1. **Strategic**: Long term, stable plan that should include risk assessment. (5 years horizon, updated annually)
+2. **Tactical**: Mid-term plan developed to provide more details on the goals of the strategic plan. (1 year horizon, updated semi-annually)
+3. **Operations**: Short-term plan that is highly detailed based on the tactical and strategic plans. (monthly, quarterly updates)
+
+#### Response to Risk
+
+- **Risk Acceptance**: Accept the risk and potential loss if treat occurs.
+- **Risk Mitigation**: Implement countermeasures and accepting the residual risk.
+- **Risk Assignment**: Transfer the risk to a third party (e.g., insurance).
+- **Risk Avoidance**: When cost of mitigation or accepting is higher than the benefits of the service.
+- **Risk Deterrence**: Implement controls to discourage or make attacks less attractive to potential threat actors. (e.g., warning signs, security guards, auditing)
+- **Risk Rejection**: An **Unacceptable** possible response to risk to reject or ignore the risk.
+
+> Handling the risk is not one-time process.
+
+### Risk Management Frameworks
+
+#### NIST 800-37 (The primary risk management framework reference in CISSP)
